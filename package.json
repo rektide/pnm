@@ -1,0 +1,21 @@
+{
+	"name": "pnm",
+	"version": "1.0.0",
+	"description": "`npm run` without the noise",
+	"bin": {
+		"pnm": "pnm"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/rektide/pnm"
+	},
+	"scripts": {
+		"hello-world": "echo hello world!",
+		"hello-x": "echo hello $*"
+	},
+	"keywords": [
+		"npm-run"
+	],
+	"author": "rektide de la faye <rektide@voodoowarez.com>",
+	"license": "MIT/X"
+}
