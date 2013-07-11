@@ -14,21 +14,21 @@ npm has `npm run` which is kind of a helmsman for package.json rather than js, a
 
 `npm run many-err`:
 
-> pnm@1.0.0 many-err /home/rektide/archive/pnm
+```> pnm@1.0.0 many-err /home/rektide/archive/pnm
 > echo stderr1 >&2; echo stderr2 >&2; echo stderr3 >&2; echo stdout; echo stderr4 >&2
 
 stderr1
 stderr2
 stderr3
 stdout
-stderr4`
+stderr4```
 
 ## using pnm
 
 `pnm many-err`:
 
-stderr1
+```stderr1
 stderr2
 stderr3
 stdout
-stderr4
+stderr4```
