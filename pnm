@@ -1,2 +1,6 @@
-#!/bin/sh
-npm run $* | tail -n+4
+#!/bin/bash
+
+npm run $1 > >(tail -n+5)
+
+# trim first stderr
+#npm run $1 > >(tail -n+5) 2> >(tail -n+2 >&2)

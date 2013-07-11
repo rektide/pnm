@@ -11,7 +11,8 @@
 	},
 	"scripts": {
 		"hello-world": "echo hello world!",
-		"hello-x": "echo hello $*"
+		"hello-x": "echo hello $*",
+		"many-err": "echo stderr1 >&2; echo stderr2 >&2; echo stderr3 >&2; echo stdout; echo stderr4 >&2"
 	},
 	"keywords": [
 		"npm-run"
