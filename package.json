@@ -1,5 +1,5 @@
 {
-	"name": "pnm",
+	"name": "print-npm-mode",
 	"version": "1.0.0",
 	"description": "`npm run` without the noise",
 	"bin": {
